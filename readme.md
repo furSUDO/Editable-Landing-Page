@@ -3,6 +3,6 @@
 
 >it is recommended that you change the OpenGraph meta manually in `index.html`
 >otherwise you will have the default OpenGraph as seen in the below image
->![]
+>![](github-assets/opengraph-example.png)
 
 >![](github-assets/site-mobile.png)
