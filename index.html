@@ -8,14 +8,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./handeler.js"></script>
 </head>
 <body>
-    <div id="logotext"></div>
-    <i class="fab fa-twitter"></i>
     
-    <div id="dynamicsite"></div>
+    <div class="socials">
+        <div id="logotext"></div>   
+        <div id="dynamicsite"></div>
+        <br><br>
+        <div class="links" id="links">
+            <div id="socialtext" class="yt link-padding">
+                <a href="https://youtube.com/djtmgaming">YouTube</a>
+              </div>
+        </div>
+    </div>
+    
+<script>
+    var txt = $('#socialtext').text();
+var newTxt = txt.replace(/\w/g,function(c){
+  return '<span>'+c+'</span>';
+})
+$('#container').html(newTxt);
+</script>
 </body>
 </html>

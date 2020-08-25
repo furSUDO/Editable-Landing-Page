@@ -3,14 +3,15 @@
         "__COMMENT__":"Edit The line below to be 'logo', text, or logotext",
         "layout":"logotext",
         "logo":"./assets/logo.png",
-        "name":"Your Name Here"
+        "name":"SUDO"
     },
     {
         "__COMMENT__":"Place your socials below in the provided format",
         "social1":[{
-            "social-name":"twitter",
+            "socialName":"twitter",
             "url":"https://twitter.com/furSUDO",
-            "handel":"furSUDO"
+            "handel":"furSUDO",
+            "hoverColor":"#00acee"
         }]
     }
 ]
