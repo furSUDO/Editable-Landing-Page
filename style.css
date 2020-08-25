@@ -1,5 +1,5 @@
 
-@font-face {font-family: 'Gotham';src: url("./assets/fonts/Gotham-Font/Gotham-Bold.otf");}
+@font-face {font-family: 'Gotham';src: url("./Gotham-Bold.otf");}
         
 body {
   font-family: 'Gotham', sans-serif;
@@ -33,21 +33,6 @@ body {
   color: #ffffff;
 }
 
-.yt a:hover {
-  color: #FF0000;
-}
-.twitter a:hover {
-  color: #00acee;
-}
-.discord a:hover {
-  color: #7289d9;
-}
-.twitch a:hover {
-  color: #6441a5;
-}
-.contact a:hover {
-  color: #47ffa0;
-}
 
 .links {
   display: inline-block;
@@ -72,3 +57,25 @@ a {
 .link-padding {
   padding: 8px;
 }
+
+.creator {
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    display: table-caption;
+    padding: 1vh;
+    position: absolute;
+    top: 95%;
+}
+
+  .creator a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #FF0000;
+}
+  
+  .creator a:hover {
+    color: #FF000a50;
+}
+  

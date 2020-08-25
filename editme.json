@@ -1,17 +1,43 @@
 [
     {
         "__COMMENT__":"Edit The line below to be 'logo', text, or logotext",
+
         "layout":"logotext",
         "logo":"./assets/logo.png",
         "name":"SUDO"
     },
-    {
-        "__COMMENT__":"Place your socials below in the provided format",
-        "social1":[{
+    {"__COMMENT__":"Place your socials below in the provided format, you can copy the '{},' to add a new social tab"},
+
+    [
+        {
             "socialName":"twitter",
             "url":"https://twitter.com/furSUDO",
             "handel":"furSUDO",
             "hoverColor":"#00acee"
-        }]
+        },
+        {
+            "socialName":"twitch",
+            "url":"https://twitch.tv/furSUDO",
+            "handel":"furSUDO",
+            "hoverColor":"#6441a5"
+        },
+        {
+            "socialName":"youtube",
+            "url":"https://www.youtube.com/channel/UCR5lUMjGpExxZDcyMoLqxPw",
+            "handel":"furSUDO",
+            "hoverColor":"#ff0000"
+        }
+    ],
+    {
+        "__COMMENT__":"Here you can edit the medta tags of the site, including the OpenGraph. do not use a '/' at the ned of siteurl",
+        "__EXAMPLE__":"https://example.com",
+
+        "title":"Site Title",
+        "description":"Some text about yourself",
+        "keywords":"separate, each, tag, with, a, comma",
+        "ogimage":"/assets/og.png",
+        "ogcolor":"#ff0000",
+        "twitterUsername":"@furSudo",
+        "siteurl":"https://example.com"
     }
 ]
