@@ -27,17 +27,5 @@
             "handel":"furSUDO",
             "hoverColor":"#ff0000"
         }
-    ],
-    {
-        "__COMMENT__":"Here you can edit the medta tags of the site, including the OpenGraph. do not use a '/' at the ned of siteurl",
-        "__EXAMPLE__":"https://example.com",
-
-        "title":"Site Title",
-        "description":"Some text about yourself",
-        "keywords":"separate, each, tag, with, a, comma",
-        "ogimage":"/assets/og.png",
-        "ogcolor":"#ff0000",
-        "twitterUsername":"@furSudo",
-        "siteurl":"https://example.com"
-    }
+    ]
 ]
