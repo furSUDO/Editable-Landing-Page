@@ -1,0 +1,74 @@
+
+@font-face {font-family: 'Gotham';src: url("./assets/fonts/Gotham-Font/Gotham-Bold.otf");}
+        
+body {
+  font-family: 'Gotham', sans-serif;
+  color: #ffffff;
+  background-color: #121212;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+
+
+.socials {
+  font-size: 3vh;
+  left: 0;
+  line-height: 4vh;
+  letter-spacing: 15px;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+  text-transform: uppercase;
+  z-index: 3;
+}
+        
+.socials a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.yt a:hover {
+  color: #FF0000;
+}
+.twitter a:hover {
+  color: #00acee;
+}
+.discord a:hover {
+  color: #7289d9;
+}
+.twitch a:hover {
+  color: #6441a5;
+}
+.contact a:hover {
+  color: #47ffa0;
+}
+
+.links {
+  display: inline-block;
+}
+
+a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+        
+      
+.logo {
+  width: auto;
+  height: 20vh;
+  margin-left: -20px;
+}
+        
+.link-padding {
+  padding: 8px;
+}

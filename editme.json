@@ -1,0 +1,16 @@
+[
+    {
+        "__COMMENT__":"Edit The line below to be 'logo', text, or logotext",
+        "layout":"logotext",
+        "logo":"./assets/logo.png",
+        "name":"Your Name Here"
+    },
+    {
+        "__COMMENT__":"Place your socials below in the provided format",
+        "social1":[{
+            "social-name":"twitter",
+            "url":"https://twitter.com/furSUDO",
+            "handel":"furSUDO"
+        }]
+    }
+]
