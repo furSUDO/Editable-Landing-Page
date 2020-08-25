@@ -12,4 +12,5 @@ I recommended that you change the OpenGraph meta manually in `index.html`, other
 >![](github-assets/opengraph-example.png)
 
 # Examples
+>![](github-assets/mobile-site-logo.png)
 >![](github-assets/site-mobile.png)
