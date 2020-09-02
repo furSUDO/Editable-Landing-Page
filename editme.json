@@ -1,10 +1,11 @@
 [
     {
-        "__COMMENT__":"Edit The line below to be 'logo', text, or logotext",
+        "__COMMENT__":"Edit The line below to be 'logo', text, or logotext. The font field should be a .otf file",
 
         "layout":"logotext",
         "logo":"./assets/logo.png",
-        "name":"SUDO"
+        "name":"SUDO",
+        "font":"Gotham-Bold.otf"
     },
     {"__COMMENT__":"Place your socials below in the provided format, you can copy the '{},' to add a new social tab"},
 
