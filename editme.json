@@ -12,19 +12,16 @@
         {
             "socialName":"twitter",
             "url":"https://twitter.com/furSUDO",
-            "handel":"furSUDO",
             "hoverColor":"#00acee"
         },
         {
             "socialName":"twitch",
             "url":"https://twitch.tv/furSUDO",
-            "handel":"furSUDO",
             "hoverColor":"#6441a5"
         },
         {
             "socialName":"youtube",
             "url":"https://www.youtube.com/channel/UCR5lUMjGpExxZDcyMoLqxPw",
-            "handel":"furSUDO",
             "hoverColor":"#ff0000"
         }
     ]
