@@ -21,9 +21,10 @@ jQuery(function() {
     jQuery.getJSON('editme.json', function(data){
         const sitedata = data[0]
         const socialdata = data[2]
-        const {layout,logo,name}=sitedata
+        const {layout,logo,name,font}=sitedata
         const spanorh1 ="h1"
 
+        document.getElementById('customfont').innerHTML `@font-face {font-family: 'Gotham';src: url("./${font}");}`
         if (layout==="logo") {
             document.getElementById('logotext').innerHTML=`<div class="container""><center><img src="${logo}" alt="${name}'s Logo" class="logo"></center></div>`
         } else if (layout==="text") {
