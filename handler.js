@@ -5,7 +5,7 @@ jQuery(function() {
         var socialName = SN.replace(/(.{1})/g,"$1</span><span>")
         var socialName = socialName.slice(0,-6)
         return `
-        <div id="${social.socialName}" class="${social.socialName} link-padding"><a href="${social.url}"><span>${socialName}</a></div>
+        <div id="${social.socialName}" class="${social.socialName} link-padding"><a href="${social.url}" target="_blank"><span>${socialName}</a></div>
         `
     }
 
