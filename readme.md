@@ -1,6 +1,4 @@
 # SUDO's Editable Landing page
-# Like what you see?
-A live version of this code can be [viewed here](https://thefurry.co.za/fursudo)
 # How to install?
 Simply clone the repository into your favorite webserver
 making sure that all files are kept together in the document root.
